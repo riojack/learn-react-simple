@@ -2,7 +2,8 @@ import React from 'react';
 
 class Song extends React.Component {
   render() {
-    return <section></section>;
+    const {name} = this.props;
+    return <section>{name}</section>;
   }
 }
 

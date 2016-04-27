@@ -1,0 +1,25 @@
+{
+  "name": "learn-react-simple",
+  "version": "1.0.0",
+  "description": "Demonstrates a simple, test-driven React UI without Flux pattern or Redux.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riojack/learn-react-simple.git"
+  },
+  "author": "Riojack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riojack/learn-react-simple/issues"
+  },
+  "homepage": "https://github.com/riojack/learn-react-simple#readme",
+  "devDependencies": {
+    "react": "^15.0.1"
+  },
+  "engines": {
+    "node": "^4.4.x || ^5.0.x"
+  }
+}

@@ -1,9 +1,21 @@
 import React from 'react';
 
+function renderByMode(props) {
+  if (props.edit === true) {
+    return <input type="text"
+                  defaultValue={props.name}
+                  placeholder={props.placeholder}
+                  onChange={props.onChange}
+    />;
+  }
+
+  return <section>{props.name}</section>;
+}
+
 class Song extends React.Component {
   render() {
-    const {name} = this.props;
-    return <section>{name}</section>;
+    let component = renderByMode(this.props);
+    return component;
   }
 }
 

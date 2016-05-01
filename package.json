@@ -4,7 +4,7 @@
   "description": "Demonstrates a simple, test-driven React UI without Flux pattern or Redux.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/",
+    "test": "node node_modules/mocha/bin/mocha",
     "example": "node node_modules/webpack-dev-server/bin/webpack-dev-server --content-base example/",
     "example-windows-chrome": "start chrome http://localhost:8080/index.html && node node_modules/webpack-dev-server/bin/webpack-dev-server --content-base example/"
   },
